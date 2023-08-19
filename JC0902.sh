@@ -12,6 +12,8 @@ if [ -z "$(cat /etc/hosts|grep devupline)" ];then
 echo "" >> /etc/hosts
 echo "127.0.0.1 www.devupline.com" >> /etc/hosts
 echo "127.0.0.1 devupline.com" >> /etc/hosts
+echo "127.0.0.1 dm.yunqitec.com" >> /etc/hosts
+echo "127.0.0.1 yunqitec.com" >> /etc/hosts
 fi
 cp start.sh /home/root/start.sh
 cp at_server /home/root/at_server
